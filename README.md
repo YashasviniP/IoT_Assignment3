@@ -1,4 +1,4 @@
-# IoT_Assugnment3
+# IoT_Assignment3
 
 #This repository contains Python codes which generate random data and uploads them onto ThingSpeak Channels
 #Visualizes the published Data using Matplot lib
