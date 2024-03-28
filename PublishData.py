@@ -24,7 +24,7 @@ try:
         # Generate random sensor values
         temperature = round(random.uniform(-50, 50), 2)  # Range: -50 to 50 Celsius
         humidity = round(random.uniform(0, 100), 2)     # Range: 0 to 100%
-        co2 = round(random.uniform(300, 2000), 2)       # Range: 300ppm to 2000ppm# Publish sensor values to MQTT channel
+        co2 = round(random.uniform(300, 2000), 2)       # Range: 300ppm to 2000ppm
         
         # Generate Payload
         payload = f"field1={temperature}&field2={humidity}&field3={co2}"
@@ -37,7 +37,7 @@ try:
         # Generate random sensor values
         temperature = round(random.uniform(-50, 50), 2)  # Range: -50 to 50 Celsius
         humidity = round(random.uniform(0, 100), 2)     # Range: 0 to 100%
-        co2 = round(random.uniform(300, 2000), 2)       # Range: 300ppm to 2000ppm# Publish sensor values to MQTT channel
+        co2 = round(random.uniform(300, 2000), 2)       # Range: 300ppm to 2000ppm
         
         # Generate Payload
         print(payload)
